@@ -1,0 +1,6 @@
+.root {
+    -fx-background-image: url("fondo.png");
+    -fx-background-size: cover; /* Esto asegura que la imagen cubra toda el área */
+    -fx-background-repeat: no-repeat; /* Evita que la imagen se repita */
+    -fx-background-position: center center; /* Centra la imagen en la escena */
+}

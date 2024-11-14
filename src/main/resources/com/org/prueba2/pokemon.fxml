@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="476" prefWidth="800" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.org.prueba2.PokemonController">
+   <children>
+      <ImageView fx:id="imgPokemon2" fitHeight="180.0" fitWidth="216.0" layoutX="523.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgPokemon1" fitHeight="243.0" fitWidth="292.0" layoutX="77.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="76.0" fitWidth="408.0" layoutX="34.0" layoutY="29.0">
+         <image>
+            <Image url="@Titulo.png" />
+         </image>
+      </ImageView>
+   </children>
+   <stylesheets>
+      <URL value="@style.css" />
+      <URL value="@fuentes.css" />
+   </stylesheets>
+</AnchorPane>
