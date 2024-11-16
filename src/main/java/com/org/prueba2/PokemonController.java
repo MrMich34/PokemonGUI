@@ -16,12 +16,12 @@ public class PokemonController {
     private ImageView imgPokemon2;
 
     public void initialize() {
-        String gifUrl = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/245.gif";
-        Image gifImage = new Image(gifUrl);
+
+        Image gifImage = new Image(getClass().getResource("com/org/prueba2/ghost.png").toString());
         imgPokemon1.setImage(gifImage);
 
-        String gifUrl2 = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/858.gif";
-        Image gifImage2 = new Image(gifUrl2);
-        imgPokemon2.setImage(gifImage2);
+        //String gifUrl2 = "https://static.wikia.nocookie.net/pokemonreloaded/images/a/ab/Ghost.png/revision/latest?cb=20181015230129&path-prefix=es";
+        //Image gifImage2 = new Image(gifUrl2);
+        //imgPokemon2.setImage(gifImage2);
     }
 }
